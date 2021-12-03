@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Tahoma, Arial;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #86a5b3;
+}
+
+.serial {
+  width: 250px;
+  background-color: #eee;
+  margin: 20px auto 0;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 66px;
+  border-radius: 4px;
+}
+
+.generate {
+  background-color: #f44336;
+  display: block;
+  margin: 20px auto;
+  width: fit-content;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  user-select: none;
+  cursor: pointer;
+}
